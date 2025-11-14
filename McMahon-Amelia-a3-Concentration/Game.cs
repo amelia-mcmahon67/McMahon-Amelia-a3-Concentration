@@ -1,4 +1,5 @@
 ﻿// Include the namespaces (code libraries) you need below.
+using McMahon_Amelia_a3_Concentration;
 using System;
 using System.Numerics;
 
@@ -18,7 +19,7 @@ namespace MohawkGame2D
         //min 30 tall
         Buttons[] titleScreenButtons =
         {
-            new Buttons(new Vector2(350, 385), new Vector2(100, 30), new string("PLAY")),
+            new Buttons(new Vector2(350, 385), new Vector2(100, 30), "PLAY"),
             new Buttons(new Vector2(350, 425), new Vector2(100, 30), new string("RULES"))
         };
         /// <summary>
